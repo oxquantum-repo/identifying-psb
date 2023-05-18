@@ -1,0 +1,18 @@
+name_of_run: experiment_2
+plotting: True
+resolution: 5
+gate1: c3
+gate2: c4
+bias_gate: c8
+bias: -1050
+magnet_gate: bz
+magnetic_field_reference: 0.5
+magnetic_field_max: 0.09
+magnetic_field_min: -0.08
+magnetic_field_resolution: 0.02
+margin_of_scans: 50
+path_to_nn: data/full_data_trained_with_resnet18_1000_0.001.pth
+nn_input_size: (100, 100)
+development_mode: False
+log_file: data/experiment_2/log_file.txt
+data_dir: data/experiment_2/data
