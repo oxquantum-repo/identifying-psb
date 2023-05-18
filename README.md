@@ -17,16 +17,24 @@ This is all code you need to recreate the results from the publication mentioned
 ## Data
 This folder contains raw and processed data for the training of the neural networks and its evaluation, as well as information about training results and trained neural network weights. The full data set is published in https://doi.org/10.5281/zenodo.7948852. Folders with data in them have a jupyter notebook that illustrates how to access the data.
 
+![demo_data](Figures/demo_data.png)
 
 ## Augmentation
 For training the neural network with experimental data, we will need to augment the data to create a larger data set. The code for this is here, together with a jupyter notebook that demonstrates it.
 
+![demo_augmentation](Figures/demo_augmentation.png)
 
 ## Simulator
 Simulated data can be created with the code provided here. There is a jupyter notebook that demos the simulator including an interactive part.
 
+![demo_simulator](Figures/demo_simulator.png)
+
 ## Training
 The training of the neural networks is demonstrated here, including data handling.
 
+![demo_training](Figures/demo_training.png)
+
 ## Visualisation
 How to show results from the training and other plots are in this folder.
+
+![demo_visualisation](Figures/demo_visualisation.png)

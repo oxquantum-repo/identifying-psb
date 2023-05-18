@@ -1,5 +1,6 @@
 Data/trained_networks/*
 Data/raw_data/for_benchmarking/data/*
+Data/Data.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
